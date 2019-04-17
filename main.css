@@ -1,0 +1,81 @@
+
+/* DEIXEI O QUE DESENVOLVI COMO IDEIA PARA BUTTONS EMBAIXO DO CAROUSEL. NÃO CONSEGUI FINALIZAR OS ESTUDOS SOBRE SEU FUNCIONAMENTO CORRETO ATÉ O MOMENTO [17/04/19, 11H50] */
+
+body{
+    background-image: url("./assets/gr1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#carousel{
+    width: 800px;
+    height:600px;
+    margin: 100px 700px;
+    overflow: hidden;
+    box-shadow: 0 0 15px #9e379f;
+    position: relative;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#carousel img{
+    position: absolute;
+    z-index: 1;
+    display: none;
+    left: 0;
+}
+
+#carousel p {
+    z-index:2;
+    position: absolute; 
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px; 
+    font-family: Arial; 
+    font-size: 14px; 
+    font-style: bold;
+    background: rgba(182, 148, 245, 0.5);  
+    color: whitesmoke;
+    display: none;
+    }
+
+/* .button-base{
+    width: 800px;
+    display: flex;
+    margin-left: 110vh;
+    margin-top: -15vh;
+}    
+
+.button-style{
+    width: 3%;
+    display: block;
+    padding: 0px 10px 0px;
+    } */
+
+.footer-icons{
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: purple;
+}
+
+.p-footer{
+    color: brown;
+    background-color: blanchedalmond;
+    padding: 5px 3px 5px;
+    width: 800px;
+    align-items: center;
+    margin: 100px 700px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
